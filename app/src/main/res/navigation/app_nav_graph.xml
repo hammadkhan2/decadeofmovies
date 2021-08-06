@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_nav_graph"
+    app:startDestination="@id/moviesListFragment">
+
+    <fragment
+        android:id="@+id/moviesListFragment"
+        android:name="com.swvl.adecadeofmovies.ui.fragments.MoviesListFragment"
+        android:label="Movies">
+        <action
+            android:id="@+id/actionAddDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.swvl.adecadeofmovies.ui.fragments.MovieDetailsFragment"
+        android:label="{movieTitle}">
+        <argument
+            android:name="movieTitle"
+            app:argType="string" />
+        <argument
+            android:name="movie"
+            app:argType="com.swvl.adecadeofmovies.models.Movie" />
+        <argument
+            android:name="transitionName"
+            app:argType="string" />
+    </fragment>
+</navigation>

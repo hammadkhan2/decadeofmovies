@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="movies">Movies</string>
+    <string name="search">Search</string>
+    <string name="filters">Filters</string>
+    <string name="cast">Cast</string>
+    <string name="show_less">Show less</string>
+    <string name="view_all_cast">View All Cast</string>
+    <string name="photos">Photos</string>
+    <string name="movie_banner_image_desc">Movie banner image</string>
+    <string name="list_item_image_desc">List item image</string>
+    <string name="rating_icon_image_desc">Rating icon image</string>
+    <string name="search_hint">Search...</string>
+    <string name="splash_icon_desc">Splash icon.</string>
+    <string name="network_error">No network connection</string>
+    <string name="no_photos_error">Photos are not available for this movie.</string>
+    <string name="api_fetch_error">Unable to fetch at this time. Please try later.</string>
+</resources>
